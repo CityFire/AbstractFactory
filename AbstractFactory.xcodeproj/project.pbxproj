@@ -13,6 +13,16 @@
 		049167751C12FE31000C8D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049167731C12FE31000C8D01 /* Main.storyboard */; };
 		049167771C12FE31000C8D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049167761C12FE31000C8D01 /* Assets.xcassets */; };
 		0491677A1C12FE31000C8D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049167781C12FE31000C8D01 /* LaunchScreen.storyboard */; };
+		049167BA1C13190F000C8D01 /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 049167A41C13190F000C8D01 /* AppleFactory.m */; };
+		049167BB1C13190F000C8D01 /* BaseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 049167A61C13190F000C8D01 /* BaseFactory.m */; };
+		049167BC1C13190F000C8D01 /* GoogleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 049167A81C13190F000C8D01 /* GoogleFactory.m */; };
+		049167BD1C13190F000C8D01 /* FactoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049167AB1C13190F000C8D01 /* FactoryManager.m */; };
+		049167BF1C13190F000C8D01 /* BasePhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 049167B01C13190F000C8D01 /* BasePhone.m */; };
+		049167C01C13190F000C8D01 /* iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 049167B21C13190F000C8D01 /* iPhone.m */; };
+		049167C11C13190F000C8D01 /* AndroidWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 049167B51C13190F000C8D01 /* AndroidWatch.m */; };
+		049167C21C13190F000C8D01 /* AppleWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 049167B71C13190F000C8D01 /* AppleWatch.m */; };
+		049167C31C13190F000C8D01 /* BaseWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 049167B91C13190F000C8D01 /* BaseWatch.m */; };
+		049167C61C131A19000C8D01 /* AndroidPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 049167C51C131A19000C8D01 /* AndroidPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,26 @@
 		049167761C12FE31000C8D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049167791C12FE31000C8D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0491677B1C12FE31000C8D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049167A31C13190F000C8D01 /* AppleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleFactory.h; sourceTree = "<group>"; };
+		049167A41C13190F000C8D01 /* AppleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleFactory.m; sourceTree = "<group>"; };
+		049167A51C13190F000C8D01 /* BaseFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFactory.h; sourceTree = "<group>"; };
+		049167A61C13190F000C8D01 /* BaseFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseFactory.m; sourceTree = "<group>"; };
+		049167A71C13190F000C8D01 /* GoogleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleFactory.h; sourceTree = "<group>"; };
+		049167A81C13190F000C8D01 /* GoogleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleFactory.m; sourceTree = "<group>"; };
+		049167AA1C13190F000C8D01 /* FactoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryManager.h; sourceTree = "<group>"; };
+		049167AB1C13190F000C8D01 /* FactoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryManager.m; sourceTree = "<group>"; };
+		049167AF1C13190F000C8D01 /* BasePhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePhone.h; sourceTree = "<group>"; };
+		049167B01C13190F000C8D01 /* BasePhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePhone.m; sourceTree = "<group>"; };
+		049167B11C13190F000C8D01 /* iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhone.h; sourceTree = "<group>"; };
+		049167B21C13190F000C8D01 /* iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhone.m; sourceTree = "<group>"; };
+		049167B41C13190F000C8D01 /* AndroidWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidWatch.h; sourceTree = "<group>"; };
+		049167B51C13190F000C8D01 /* AndroidWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidWatch.m; sourceTree = "<group>"; };
+		049167B61C13190F000C8D01 /* AppleWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleWatch.h; sourceTree = "<group>"; };
+		049167B71C13190F000C8D01 /* AppleWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleWatch.m; sourceTree = "<group>"; };
+		049167B81C13190F000C8D01 /* BaseWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWatch.h; sourceTree = "<group>"; };
+		049167B91C13190F000C8D01 /* BaseWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWatch.m; sourceTree = "<group>"; };
+		049167C41C131A19000C8D01 /* AndroidPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidPhone.h; sourceTree = "<group>"; };
+		049167C51C131A19000C8D01 /* AndroidPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidPhone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,10 @@
 		049167691C12FE31000C8D01 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
+				049167A21C13190F000C8D01 /* Factory */,
+				049167A91C13190F000C8D01 /* Manager */,
+				049167AC1C13190F000C8D01 /* Phone */,
+				049167B31C13190F000C8D01 /* Watch */,
 				0491676D1C12FE31000C8D01 /* AppDelegate.h */,
 				0491676E1C12FE31000C8D01 /* AppDelegate.m */,
 				049167701C12FE31000C8D01 /* ViewController.h */,
@@ -77,6 +111,54 @@
 				0491676B1C12FE31000C8D01 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		049167A21C13190F000C8D01 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				049167A51C13190F000C8D01 /* BaseFactory.h */,
+				049167A61C13190F000C8D01 /* BaseFactory.m */,
+				049167A31C13190F000C8D01 /* AppleFactory.h */,
+				049167A41C13190F000C8D01 /* AppleFactory.m */,
+				049167A71C13190F000C8D01 /* GoogleFactory.h */,
+				049167A81C13190F000C8D01 /* GoogleFactory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		049167A91C13190F000C8D01 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				049167AA1C13190F000C8D01 /* FactoryManager.h */,
+				049167AB1C13190F000C8D01 /* FactoryManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		049167AC1C13190F000C8D01 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				049167AF1C13190F000C8D01 /* BasePhone.h */,
+				049167B01C13190F000C8D01 /* BasePhone.m */,
+				049167B11C13190F000C8D01 /* iPhone.h */,
+				049167B21C13190F000C8D01 /* iPhone.m */,
+				049167C41C131A19000C8D01 /* AndroidPhone.h */,
+				049167C51C131A19000C8D01 /* AndroidPhone.m */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		049167B31C13190F000C8D01 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				049167B81C13190F000C8D01 /* BaseWatch.h */,
+				049167B91C13190F000C8D01 /* BaseWatch.m */,
+				049167B61C13190F000C8D01 /* AppleWatch.h */,
+				049167B71C13190F000C8D01 /* AppleWatch.m */,
+				049167B41C13190F000C8D01 /* AndroidWatch.h */,
+				049167B51C13190F000C8D01 /* AndroidWatch.m */,
+			);
+			path = Watch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +232,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				049167721C12FE31000C8D01 /* ViewController.m in Sources */,
+				049167C61C131A19000C8D01 /* AndroidPhone.m in Sources */,
 				0491676F1C12FE31000C8D01 /* AppDelegate.m in Sources */,
+				049167C11C13190F000C8D01 /* AndroidWatch.m in Sources */,
+				049167BD1C13190F000C8D01 /* FactoryManager.m in Sources */,
+				049167BF1C13190F000C8D01 /* BasePhone.m in Sources */,
 				0491676C1C12FE31000C8D01 /* main.m in Sources */,
+				049167BC1C13190F000C8D01 /* GoogleFactory.m in Sources */,
+				049167C21C13190F000C8D01 /* AppleWatch.m in Sources */,
+				049167BA1C13190F000C8D01 /* AppleFactory.m in Sources */,
+				049167C01C13190F000C8D01 /* iPhone.m in Sources */,
+				049167C31C13190F000C8D01 /* BaseWatch.m in Sources */,
+				049167BB1C13190F000C8D01 /* BaseFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
